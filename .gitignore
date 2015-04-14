@@ -5,3 +5,4 @@
 *.so
 *.exe
 build/
+test/demo
