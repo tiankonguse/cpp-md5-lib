@@ -5,9 +5,9 @@
 ## 说明
 
 
-我已经在 bulid 中写好了 cmake 文件。  
+我已经写好了 cmake 文件， 并写好了`run.sh`脚本自动执行cmake。    
 
-只需要把`run.sh`脚本复制到bulid目录，然后执行 `./run.sh` 脚本。  
+所以只需要把`run.sh`脚本复制到bulid目录，然后执行 `./run.sh` 脚本。  
 
 就会在 lib 目录中生成对应的静态库。  
 
@@ -20,7 +20,7 @@
 
 例如  
 
-```
+```cpp
 #include "md5.h"
 
 md5(string)
@@ -36,7 +36,7 @@ md5(string)
 测试如下  
 
 
-```
+```bash
 echo -n "tiankonguse" | md5sum
 77192a8e3dc5fb2b7428566f9741ebfc *-
 
